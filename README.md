@@ -1,12 +1,9 @@
 Cats vs Dogs Classification using CNN
+
 Overview
-
-This project implements a Convolutional Neural Network (CNN) to classify images of cats and dogs. It covers the full pipeline from data extraction, preprocessing, and exploratory data analysis (EDA) to model training and deployment using Gradio for interactive predictions.
-
-The model is trained on a dataset containing separate folders for training and testing images, and it predicts whether an uploaded image is a cat or a dog.
+This project implements a Convolutional Neural Network (CNN) to classify images of cats and dogs. It covers the full pipeline from data extraction, preprocessing, and exploratory data analysis (EDA) to model training and deployment using Gradio for interactive predictions.The model is trained on a dataset containing separate folders for training and testing images, and it predicts whether an uploaded image is a cat or a dog.
 
 Project Structure
-.
 ├── data/                   # Extracted dataset
 │   ├── train/              # Training images
 │   └── test/               # Validation/Test images
@@ -18,7 +15,6 @@ Project Structure
 Installation
 
 Clone the repository:
-
 git clone https://github.com/yourusername/cats-vs-dogs-cnn.git
 cd cats-vs-dogs-cnn
 
@@ -31,19 +27,14 @@ pip install -r requirements.txt
 The main packages used include:
 
 tensorflow
-
 keras
-
 matplotlib
-
 numpy
-
 gradio
 
 Dataset
 
 The dataset should be organized as follows:
-
 data/
 ├── train/
 │   ├── cats/
